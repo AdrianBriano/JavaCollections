@@ -1,4 +1,4 @@
-package com.adr.javacollections.model;
+package com.adr.javacollections;
 
 public class Product {
     private String name;

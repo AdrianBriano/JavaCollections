@@ -1,25 +1,24 @@
-package com.adr.javacollections.model;
+package com.adr.javacollections;
 
+import static com.adr.javacollections.ProductFixture.door;
+import static com.adr.javacollections.ProductFixture.floorPanel;
+import static com.adr.javacollections.ProductFixture.window;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+import com.adr.javacollections.Product;
+import com.adr.javacollections.Shipment;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ShipmentTest {
 
 	private static Shipment shipment;
-	static Product door;
-	static Product floorPanel;
-	static Product window;
 
-	@BeforeClass
+	@Before
 	public static void initObjects() {
-
 		shipment = new Shipment();
-		window = new Product("Window", 10);
-		door = new Product("Wooden door", 35);
-		floorPanel = new Product("Floor panel", 25);
 	}
 
 	@Test

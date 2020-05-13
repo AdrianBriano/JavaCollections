@@ -1,4 +1,4 @@
-package com.adr.javacollections.model;
+package com.adr.javacollections;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -3,8 +3,6 @@ package com.adr.javacollections;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.adr.javacollections.model.Product;
-
 public class CollectionConcepts {
 
     public static void main(String[] args) {
