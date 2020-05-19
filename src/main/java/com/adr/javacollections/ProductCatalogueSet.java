@@ -3,11 +3,11 @@ package com.adr.javacollections;
 import java.util.*;
 
 import static com.adr.javacollections.Product.BY_NAME;
+import static com.adr.javacollections.Product.BY_WEIGHT;
 
-public class ProductCatalogue implements Iterable<Product> {
+public class ProductCatalogueSet implements Iterable<Product> {
 
-//    private final Set<Product> products = new HashSet<>();
-    private final Set<Product> products = new TreeSet<>(BY_NAME);
+    private final Set<Product> products = new HashSet<>();
 
     public void isSuppliedBy(Supplier supplier) {
         products.addAll(supplier.getProducts());
@@ -17,4 +17,5 @@ public class ProductCatalogue implements Iterable<Product> {
     public Iterator<Product> iterator() {
         return products.iterator();
     }
+
 }

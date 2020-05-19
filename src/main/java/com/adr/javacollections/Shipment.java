@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Shipment implements Iterable<Product> {
 
-    private List<Product> productList = new ArrayList<>();
-    private List<Product> lightProductsList = new ArrayList<>();
-    private List<Product> heavyProductsList = new ArrayList<>();
+    private final List<Product> productList = new ArrayList<>();
+    private final List<Product> lightProductsList = new ArrayList<>();
+    private final List<Product> heavyProductsList = new ArrayList<>();
 
     public void add(Product product) {
         productList.add(product);
