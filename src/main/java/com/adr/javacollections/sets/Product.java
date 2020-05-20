@@ -1,4 +1,4 @@
-package com.adr.javacollections;
+package com.adr.javacollections.sets;
 
 import java.util.Comparator;
 import java.util.Objects;

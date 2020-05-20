@@ -1,9 +1,8 @@
-package com.adr.javacollections;
+package com.adr.javacollections.sets;
 
-import java.util.*;
-
-import static com.adr.javacollections.Product.BY_NAME;
-import static com.adr.javacollections.Product.BY_WEIGHT;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 public class ProductCatalogueSet implements Iterable<Product> {
 

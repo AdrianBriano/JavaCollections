@@ -1,11 +1,8 @@
-package com.adr.javacollections;
+package com.adr.javacollections.sets;
 
 import java.util.Iterator;
-import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
-
-import static com.adr.javacollections.Product.BY_WEIGHT;
 
 public class ProductCatalogueTreeSet implements Iterable<Product> {
 

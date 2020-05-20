@@ -1,4 +1,4 @@
-package com.adr.javacollections;
+package com.adr.javacollections.sets;
 
 public class ProductFixture {
     public static Product door = new Product("Wooden door", 35);

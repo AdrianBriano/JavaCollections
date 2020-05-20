@@ -1,5 +1,7 @@
 package com.adr.javacollections;
 
+import com.adr.javacollections.lists.Product;
+
 import java.util.ArrayList;
 import java.util.Collection;
 

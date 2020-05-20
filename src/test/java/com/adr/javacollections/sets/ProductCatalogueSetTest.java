@@ -1,11 +1,10 @@
-package com.adr.javacollections;
+package com.adr.javacollections.sets;
 
 import org.junit.Test;
 
-import static com.adr.javacollections.ProductFixture.*;
+import static com.adr.javacollections.sets.ProductFixture.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsInAnyOrder;
-import static org.hamcrest.Matchers.hasItems;
 
 public class ProductCatalogueSetTest {
 
